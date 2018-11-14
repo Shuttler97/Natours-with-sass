@@ -1,0 +1,18 @@
+{
+  "name": "cssproject",
+  "version": "1.0.0",
+  "description": "advanced css project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "localhost": "^0.2.3"
+  }
+}
